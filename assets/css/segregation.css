@@ -1,0 +1,99 @@
+.main{
+    width: 100vw;
+    height: 100vh;
+}
+
+.img1, .img2{
+    background: url("/image-Slider-Pics/6.jpeg") center center;
+    background-size: cover;
+    position: relative
+}
+
+.res1, .res2 {
+    background: url("/image-Slider-Pics/3.jpeg") center center;
+    background-size: cover;
+    position: relative
+}
+
+.bus1, .bus2 {
+    background: url("/image-Slider-Pics/4.jpeg") center center;
+    background-size: cover;
+    position: relative
+}
+
+.ev1, .ev2 {
+    background: url("/image-Slider-Pics/5.jpeg") center center;
+    background-size: cover;
+    position: relative
+}
+
+.pl1, .pl2 {
+    background: url("/image-Slider-Pics/2.jpeg") center center;
+    background-size: cover;
+    position: relative
+}
+
+.ed1, .ed2 {
+    background: url("/image-Slider-Pics/1.jpeg") center center;
+    background-size: cover;
+    position: relative
+}
+
+.rc1, .rc2 {
+    background: url("../img/antoine-giret-7_TSzqJms4w-unsplash.jpg") center center;
+    background-size: cover;
+    position: relative
+}
+
+.mid_main{
+    height: 100vh;
+    overflow-y: hidden;
+    overflow-y: scroll;
+    padding-bottom: 10px;
+}
+.mid_main::-webkit-scrollbar {
+    display: none;
+}
+
+.serv{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.serv > a{
+    background: #7FB77E;
+    width: fit-content;
+    color: white;
+    border-radius: 05px;
+    padding:5px 15px;
+    text-decoration: none;
+    font-weight: bold
+}
+
+.serv > a:hover{
+    background: #42855B;
+}
+
+.serv > a.active{
+    background: #42855B;
+}
+
+.news-con,.gal-con{
+    height: 100vh;
+    overflow: hidden;
+    overflow-y: scroll;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.news-con::-webkit-scrollbar {
+    display: none;
+}
+
+.gal-con::-webkit-scrollbar {
+    display: none;
+}
+

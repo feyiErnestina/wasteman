@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/login.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <div class="container">
+      <form id="form" class="form">
+        <h2>Login</h2>
+        <p>Kindly Log into your account</p>
+        <hr>
+        <br />
+        <div class="form-control">
+          <label for="email">Email</label>
+          <input type="text" placeholder="Enter your email" id="email" required/>
+          <small>Error Meassage</small>
+        </div>
+        <div class="form-control">
+          <label for="password">Password</label>
+          <input
+            type="password"
+            placeholder="Enter your password"
+            id="password"
+            required
+          />
+          <small>Error Meassage</small>
+          <label>
+                <input type="checkbox" checked="checked" name="remember" id="rem" > Remember me
+                
+            </label>
+        <button type="submit">Submit</button>
+        <p class="login-link"><i>Don't have an account?</i><a  href="signup.html">Sign Up</a></p>
+
+      </form>
+    </div>
+    <script src="/login.js"></script>
+  </body>
+</html>
