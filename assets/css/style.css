@@ -310,14 +310,13 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 90vh;
-  background: url("../img/antoine-giret-7_TSzqJms4w-unsplash.jpg") center center;
   background-size: cover;
   position: relative;
   margin-top: 70px;
   padding: 0;
 }
 
-.carousel {
+.carousel-1 {
   width: 100%;
   height: 90vh;
   background:center center;
@@ -326,9 +325,19 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
 }
 
-#hero:before {
+/* #hero:before {
   content: "";
   background: rgba(56, 64, 70, 0.7);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+} */
+
+.carousel-1::after {
+  content: "";
+  background: rgba(0, 0, 0, 0.7);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -336,14 +345,20 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
 }
 
-.carousel::after {
-  content: "";
-  background: rgba(56, 64, 70, 0.7);
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
+.newsy{
+  height: 90vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.newsy h1{
+  font-size: 2rem;
+  font: bold;
+}
+
+.carouMage{
+  /* height: ; */
 }
 
 #hero .container {
